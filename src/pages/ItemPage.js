@@ -1,7 +1,7 @@
 const ItemPage = () => {
   return (
     <div>
-      <h2>Item description:</h2>
+      <h3>Item description:</h3>
     </div>
   );
 };
