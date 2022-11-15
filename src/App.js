@@ -7,23 +7,27 @@ import { NavBar } from "./components";
 function App() {
   return (
     <div>
-      <NavBar />
-      <h2>Welcome to Fiana!</h2>
-      <div>
-        <NavLink to="/">Home</NavLink>
-      </div>
-      <div>
-        <NavLink
-          to="/shop"
-          className="links"
-          style={({ isActive }) => (isActive ? { color: "white" } : undefined)}
-        >
-          Shop
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/details/:id">About</NavLink>
-      </div>
+      <NavBar>
+        <div>
+          <NavLink to="/">Home</NavLink>
+        </div>
+        <div>
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "white" } : undefined
+            }
+          >
+            Shop
+          </NavLink>
+        </div>
+        <div>
+          <NavLink to="/details/:id">About</NavLink>
+        </div>
+      </NavBar>
+      <h2>Welcome to FianaShop!</h2>
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
