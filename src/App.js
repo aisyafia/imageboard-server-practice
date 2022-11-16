@@ -1,7 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes, NavLink } from "react-router-dom";
-import { HomePage, ShopPage, ItemPage } from "./pages";
+import { HomePage, ShopPage, ItemPage, ProductDetailPage } from "./pages";
 import { NavBar, Footer, SearchBar } from "./components";
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
           </NavLink>
         </div>
         <div>
-          <NavLink to="/details/:id" className="links">
-            About
+          <NavLink to="/product/1" className="links">
+            Product detail
           </NavLink>
         </div>
       </NavBar>
@@ -35,7 +35,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
-        <Route path="/details/:id" element={<ItemPage />} />
+        {/* <Route path="/details/:id" element={<ItemPage />} /> */}
+        <Route path="/product/:id" element={<ProductDetailPage />} />
       </Routes>
       <div>
         <Footer />
