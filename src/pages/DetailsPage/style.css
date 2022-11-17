@@ -1,0 +1,62 @@
+.top-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 20px;
+}
+.bottom-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: blanchedalmond;
+  height: 150px;
+  padding-left: 100px;
+}
+.title-description {
+  width: 250px;
+}
+.ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cart-and-favorite {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.link-collection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 550px;
+  height: 30px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+.desc-detail {
+  width: 550px;
+}
+.link {
+  font-size: 12px;
+}
+button {
+  width: 65px;
+  height: 17px;
+  font-size: 8px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 7px;
+  border: none;
+  margin-left: 15px;
+}
+button:hover {
+  background-color: antiquewhite;
+}
+img {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
