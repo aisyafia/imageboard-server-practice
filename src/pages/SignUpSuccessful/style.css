@@ -1,0 +1,13 @@
+.signInMessage {
+    display:flex;
+        background-color: white;
+        border-radius: 5px;
+        width: 550px;
+        margin: 150px auto;
+        height: 600px; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        list-style:none;
+    
+}

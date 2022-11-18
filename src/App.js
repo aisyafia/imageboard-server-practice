@@ -3,6 +3,8 @@ import "./App.css";
 import { Route, Routes, NavLink } from "react-router-dom";
 import { HomePage, ShopPage, ItemPage, ProductDetailPage } from "./pages";
 import { NavBar, Footer, SearchBar } from "./components";
+import SignUp from "./pages/SignUp";
+import SignUpSuccessful from "./pages/SignUpSuccessful";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
         <Route path="/shop" element={<ShopPage />} />
         {/* <Route path="/details/:id" element={<ItemPage />} /> */}
         <Route path="/product/:id" element={<ProductDetailPage />} />
+        <Route path="/signUp" element={<SignUp />} />
+        <Route path="/signUpSuccessful" element={<SignUpSuccessful />} />
       </Routes>
       <div>
         <Footer />

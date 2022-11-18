@@ -1,0 +1,22 @@
+.container-filters {
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.filter-category-item{
+    padding-bottom: 30px;
+   margin-left: 30px;
+}
+
+.filter-price-item {
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
+
+.filter-rating-item {
+    margin-left: 30px;
+    
+    
+}
