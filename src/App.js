@@ -10,6 +10,8 @@ import {
 } from "./pages";
 import { NavBar, Footer, SearchBar } from "./components";
 import { useState } from "react";
+import SignUp from "./pages/SignUp";
+import SignUpSuccessful from "./pages/SignUpSuccessful";
 
 function App() {
   const [token, setToken] = useState(null);
@@ -61,6 +63,8 @@ function App() {
             />
           }
         />
+        <Route path="/signUp" element={<SignUp />} />
+        <Route path="/signUpSuccessful" element={<SignUpSuccessful />} />
       </Routes>
       <div>
         <Footer />
