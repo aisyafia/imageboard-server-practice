@@ -34,7 +34,7 @@ function App() {
           </NavLink>
         </div>
         <div>
-          <NavLink to="/product/1" className="links">
+          <NavLink to="/product/:id" className="links">
             Product detail
           </NavLink>
         </div>
