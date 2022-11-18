@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  border: 2px solid whitesmoke;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.form-a {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 20px;
+}
+button {
+  font-size: 12px;
+}
